@@ -9,13 +9,14 @@
   
   inputs.src-crosscompile-master.flake = false;
   inputs.src-crosscompile-master.owner = "juancarlospaco";
-  inputs.src-crosscompile-master.ref   = "refs/heads/master";
+  inputs.src-crosscompile-master.ref   = "master";
   inputs.src-crosscompile-master.repo  = "nim-crosscompile";
   inputs.src-crosscompile-master.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
   inputs."zip".ref   = "master";
   inputs."zip".repo  = "zip";
+  inputs."zip".dir   = "0_3_1";
   inputs."zip".type  = "github";
   inputs."zip".inputs.nixpkgs.follows = "nixpkgs";
   inputs."zip".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
