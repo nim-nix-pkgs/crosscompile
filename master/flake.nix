@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-crosscompile-master.flake = false;
+  inputs.src-crosscompile-master.ref   = "refs/heads/master";
   inputs.src-crosscompile-master.owner = "juancarlospaco";
-  inputs.src-crosscompile-master.ref   = "master";
   inputs.src-crosscompile-master.repo  = "nim-crosscompile";
   inputs.src-crosscompile-master.type  = "github";
   
