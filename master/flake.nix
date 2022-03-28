@@ -11,7 +11,6 @@
   inputs.src-crosscompile-master.ref   = "refs/heads/master";
   inputs.src-crosscompile-master.owner = "juancarlospaco";
   inputs.src-crosscompile-master.repo  = "nim-crosscompile";
-  inputs.src-crosscompile-master.dir   = "";
   inputs.src-crosscompile-master.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
